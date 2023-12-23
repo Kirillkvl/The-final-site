@@ -1,0 +1,21 @@
+.anim-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #c8ff00;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes anim {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.2); }
+  60% { transform: scale(1); }
+}
+
+.anim-button:hover {
+  background-color: #f2ff79;
+  animation: anim 2s infinite;
+}
+
